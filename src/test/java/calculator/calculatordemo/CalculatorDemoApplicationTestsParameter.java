@@ -33,7 +33,7 @@ public class CalculatorDemoApplicationTestsParameter {
         assertEquals(num1 / num2, out.divide(num1, num2));
     }
 
-private static Stream<Arguments> argumentsForCalculatorTest(){
+private static Stream<Arguments> provideArgumentsForCalculatorTests(){
         return Stream.of(
                 Arguments.of(z0,w1),
                 Arguments.of(t2,w1),
